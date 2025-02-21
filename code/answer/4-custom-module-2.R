@@ -94,12 +94,12 @@ my_custom_module <- function(label = "My Custom Teal Module") {
   )
 }
 
-data <- teal_data(
-  adsl = teal.data::rADSL,
-  adae = teal.data::rADAE,
+data <- teal_data( # switch between teal_data and cdisc_data and see the difference
+  ADSL = teal.data::rADSL,
+  ADAE = teal.data::rADAE,
   code = "
-    adsl = teal.data::rADSL
-    adae = teal.data::rADAE
+    ADSL <- teal.data::rADSL
+    ADAE <- teal.data::rADAE
   "
 )
 
