@@ -52,7 +52,7 @@ app <- init(
       plot_height = c(600L, 400L, 5000L),
     )
   ),
-  header = tags$h1("Shiny Gathering 2024 teal Workshop"),
+  header = tags$h1("PHUSE US Connect 2025 teal Workshop"),
   filter = teal_slices(
     teal_slice("ADSL", "SAFFL", id = "saffl", selected = "Y", fixed = TRUE, anchored = TRUE),
     teal_slice("ADAE", "AESER", anchored = TRUE),
