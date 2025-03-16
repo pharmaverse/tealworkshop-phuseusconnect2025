@@ -6,15 +6,15 @@
 
 library(teal)
 
-# data <- teal_data(
-#   my_iris = iris,
-#   my_mtcars = mtcars
-# )
-
-data <- cdisc_data(
-  adsl = teal.data::rADSL,
-  adae = teal.data::rADAE
+data <- teal_data(
+  my_iris = iris,
+  my_mtcars = mtcars
 )
+
+# data <- cdisc_data(
+#   adsl = teal.data::rADSL,
+#   adae = teal.data::rADAE
+# )
 
 app <- init(
   data = data,
