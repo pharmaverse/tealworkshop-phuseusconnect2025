@@ -106,11 +106,11 @@ my_custom_module <- function(label = "My Custom Teal Module") {
 }
 
 data <- teal_data(
-  adsl = teal.data::rADSL,
-  adae = teal.data::rADAE,
+  ADSL = teal.data::rADSL,
+  ADAE = teal.data::rADAE,
   code = "
-    adsl = teal.data::rADSL
-    adae = teal.data::rADAE
+    ADSL = teal.data::rADSL
+    ADAE = teal.data::rADAE
   "
 )
 
@@ -121,7 +121,7 @@ app <- init(
   modules = modules(
     my_custom_module()
   ),
-  header = "Shiny Gathering 2024"
+  header = "PHUSE US Connect 2025"
 )
 
 shinyApp(app$ui, app$server)
