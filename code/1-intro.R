@@ -12,8 +12,8 @@ data <- teal_data(
 )
 
 # data <- cdisc_data(
-#   adsl = teal.data::rADSL,
-#   adae = teal.data::rADAE
+#   ADSL = teal.data::rADSL,
+#   ADAE = teal.data::rADAE
 # )
 
 app <- init(
